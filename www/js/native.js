@@ -8,12 +8,13 @@ var native = {
 	currentTab: undefined,	
 	switchTabs: function (){
 		
-		window.plugins.childBrowser.showWebPage('http://www.airgames.com',
+	/*	window.plugins.childBrowser.showWebPage('http://www.airgames.com',
             { 
             	showLocationBar: false,
             	showAddress: false,
             	showNavigationbar: false
         });	    	
+	*/
 	},
 
 	bindEvents: function(){
