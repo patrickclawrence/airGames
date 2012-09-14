@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>Cordova</title>
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
+	<script type="text/javascript" charset="utf-8" src="cordova-2.0.0.js"></script>
+	<script src="childbrowser.js"></script>
+	<script src="js/jQuery.js"></script>
+	<script src="js/native.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		jQuery.noConflict();	
+	    document.addEventListener("deviceready", onDeviceReady, false);	  
+	</script>
+	</head>
+	<body>
+		 <div id="airGames" ontouchmove="BlockMove(event)">            		
+			<div class="tabContainer">				
+				<span id='community' class="tab" onClick="native.switchTabs(native.TABS[1])">Community</span>
+				<span id='native' class="tab" onClick="native.switchTabs(native.TABS[0])">My Stuff</span> 
+			</div id='gamesContent'>
+			<div>				
+			</div>				
+			<div id='nativeContent'>				
+				<p>Initializing Flex Capacitor</p>	
+				<p>This may takes several seconds, 1500 gigawatts are required!!</p>
+				<img src="./img/icon.png"/> 
+			</div>
+		</div>
+	</body>
+</html>
+

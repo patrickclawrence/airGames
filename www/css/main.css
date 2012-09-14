@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+	
+}
+
+#airGames{
+	height: 100%; 
+	width: 100%; 
+	position: absolute;
+	background-image: url(/img/landing.png);
+	background-size: 100% 100%;	
+	overflow: hidden;	
+}
+
+#airGames .tabContainer{
+	width: 100%;
+	height: 30px;
+}
+
+#airGames .tabContainer .tab{
+	position: absolute;
+	width: 50%;
+	height: 30px;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+#airGames .tabContainer .tab:first-child{
+	left: 0;
+}
+#airGames .tabContainer .tab:first-child{
+	left: 50%;
+}
+
+element.style {
+width: 100%;
+position: absolute;
+overflow: hidden;
+height: 467px;
+
+.classContainer{
+
+}
