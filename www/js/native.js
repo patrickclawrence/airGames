@@ -49,12 +49,12 @@ document.addEventListener("deviceready", function(){
 	native.currentTab = native.TABS[0];
 	native.bindEvents();	
 }, false);
-/*
+
 jQuery(document).ready(function(){
 	native.currentTab = native.TABS[0];
 	native.bindEvents();	
 });
-*.
+
 
 
 
